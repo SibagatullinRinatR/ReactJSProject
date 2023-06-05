@@ -1,0 +1,123 @@
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+  } 
+  
+  .footer__form{
+    padding-top: 139px;
+    width: 548px;
+    text-align: center;
+    padding-bottom: 43px;
+    
+  }
+
+  .footer__overlay{
+    transform: scale(0);
+  }
+
+  .footer__overlay_active{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transform: scale(1);
+    position: absolute;
+    width: 100%;
+    height: 80%;
+    background: rgba(0, 0, 0, 0.4);
+    transition: 0.5s;
+  }
+
+  
+  .footer__form h4{
+    font-family: 'OpenSansCondensed';
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 50px;
+    letter-spacing: 0em;
+    text-align: center;
+  }
+  
+  .footer__form h5{
+    font-family: 'OpenSans';
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: center;
+  }
+  .footer__form hr{
+    margin-bottom: 24px;
+  }
+  
+  .footer__form_cost{
+    font-family: 'OpenSansCondensed';
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #29FD85;
+    margin-bottom: 40px;
+  
+  }
+  
+  .send_button{
+    height: 60px;
+    width: 294px;
+    border-radius: 0px;
+    background: #29FD85;
+    cursor: pointer;
+    font-family: 'OpenSansCondensed';
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 44px;
+    letter-spacing: 0em;
+    text-align: center;
+  }
+  
+  .footer__text{
+    width: 710px;
+    text-align: left;
+    font-family: 'OpenSans';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: left;
+  }
+  
+  .footer__text li{
+    line-height: 30px;
+  }
+
+  .range:nth-child(4){
+    grid-column: 1/3;
+  }
+  
+  input[type="range"] {
+    -webkit-appearance: none;
+    width: 1660px;
+    height: 3px;
+    background: #FFFFFF;
+    opacity: 50%;
+    
+  }
+  
+  input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background: #29FD85;
+    cursor: pointer;
+    /* box-shadow: 0 0 2px 0 #555; */
+    /* transition: 'background-color' 0.3s ease-in-out; */
+  }
+
+  .interval{
+    display: flex;
+    flex-direction: raw;
+    justify-content: space-between;
+  }

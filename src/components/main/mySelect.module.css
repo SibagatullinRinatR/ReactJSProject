@@ -1,0 +1,54 @@
+select {
+  appearance: none;
+  background-color: transparent;
+  border: none;
+  padding: 0 1em 0 0;
+  margin: 0;
+  width: 100%;
+  font-family: inherit;
+  font-size: inherit;
+  cursor: inherit;
+  line-height: inherit;
+  outline: none;
+}
+select::-ms-expand {
+  display: none;
+}
+
+:root {
+ --select-border: white; 
+ --select-focus: blue;  
+  --select-arrow: var(--select-border);
+}
+
+.select {
+  background: transparent;
+  display: grid;
+  grid-template-areas: "select";
+  align-items: center;
+  width: 100%;
+  min-width: 10ch;
+  max-width: 20ch;
+  border: none; 
+  font-size: 1.25rem;
+  cursor: pointer;
+  line-height: 1.1;
+  
+}
+
+select,
+.select:after {
+grid-area: select;
+}
+
+.select::after {
+  justify-self: end;
+  content: "";
+  width: 0.8em;
+  height: 0.5em;
+  background-color: var(--select-arrow);
+  clip-path: polygon(100% 0%, 0 0%, 50% 100%);
+}
+
+
+

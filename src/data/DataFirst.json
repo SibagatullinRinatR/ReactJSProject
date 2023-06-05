@@ -1,0 +1,69 @@
+
+    {
+        "name": "3D Amination & FX",
+        "imageName": "image5.jpg",
+        "types": [
+                {
+                    "name": "Product/engineering visualization",
+                    "imageName": "image4.jpg",
+                    "videoId": "85bYvRSv2U4"
+                },
+                {
+                    "name": "Fantasy character visual effects",
+                    "imageName": "image5.jpg",
+                    "videoId": "G83TCAzbQcI"
+                },
+                {
+                    "name": "Robotic character integration",
+                    "imageName": "image6.jpg",
+                    "videoId": "_RWWKFqv7EM"
+                },
+                {
+                    "name": "CGI product demonstration",
+                    "imageName": "image7.jpg",
+                    "videoId": "-n9fo7jUMa0"
+                },
+                {
+                    "name": "3D Animation in a 2D style",
+                    "imageName": "image8.jpg",
+                    "videoId": "IXwPkm7LZ_I"
+                },
+                {
+                    "name": "Automotive visual effects",
+                    "imageName": "image9.jpg",
+                    "videoId": "DA6dQbsQoMU"
+                },
+                {
+                    "name": "PCreature VFX",
+                    "imageName": "image10.jpg",
+                    "videoId": "yCWPBfuLqrQ"
+
+                },
+                {
+                    "name": "3D cartoon",
+                    "imageName": "image11.jpg",
+                    "videoId": "GoWMz1ZkBD8"
+                },
+                {
+                    "name": "Stylised character integration",
+                    "imageName": "image12.jpg", 
+                    "videoId": "DZhuDOaWioE"
+
+                },
+                {
+                    "name": "Disney/Pixar Style",
+                    "imageName": "image13.jpg",
+                    "videoId": "XpUi34HOD8U"
+                },
+                {
+                    "name": "Technical vosualisation",
+                    "imageName": "image14.jpg",
+                    "videoId": "NuBRjCqDsdI"
+                },
+                {
+                    "name": "Product visualisation (studio)",
+                    "imageName": "image15.jpg",
+                    "videoId": "YsqjQhRAsvU"
+                }
+            ] 
+    }

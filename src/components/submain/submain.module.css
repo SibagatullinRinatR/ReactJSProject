@@ -1,0 +1,50 @@
+.video_info{
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr;
+    gap: 40px;
+  }
+  
+  .video_info__range__details{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    color: #29FD85;
+    font-family: 'OpenSansCondensed';
+    font-size: 24px;
+    font-weight: 700;
+  }
+  
+  .video_info__range__text{
+    padding-top: 53px;
+    font-family: 'OpenSans';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  
+  .video_info__comment__text{
+    max-width: 365px;
+    padding-top: 15px;
+  }
+  
+  .video_info__comment h4{
+    font-family: 'OpenSansCondensed';
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 33px;
+    letter-spacing: 0em;
+    text-align: left;
+  
+  }
+  
+  .video_info__comment p{
+    font-family: 'OpenSans';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  
+  

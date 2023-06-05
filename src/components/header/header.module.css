@@ -1,0 +1,6 @@
+.app_header{
+    margin-left: -50px;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 50px;
+  }

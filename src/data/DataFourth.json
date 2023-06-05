@@ -1,0 +1,26 @@
+{
+    "name": "Stop Motion and More",
+    "imageName": "image3.jpg",
+    "types": [
+            {
+                "name": "Product/engineering visualization",
+                "imageName": "image4.jpg",
+                "videoId": "85bYvRSv2U4"
+            },
+            {
+                "name": "Fantasy character visual effects",
+                "imageName": "image5.jpg",
+                "videoId": "G83TCAzbQcI"
+            },
+            {
+                "name": "Robotic character integration",
+                "imageName": "image6.jpg",
+                "videoId": "_RWWKFqv7EM"
+            },
+            {
+                "name": "CGI product demonstration",
+                "imageName": "image7.jpg",
+                "videoId": "-n9fo7jUMa0"
+            }
+        ] 
+}
